@@ -10,4 +10,5 @@
 @import url(../blocks/lead/__subtitle/lead__subtitle.css);
 @import url(../blocks/lead/__image/lead__image.css);
 @import url(../blocks/lead/__caption/lead__caption.css);
-@import url(../blocks/);
+/* Файл ниже создан для личного удобства, разносить по папкам буду позже.*/
+@import url(../styles.css);
