@@ -1,8 +1,36 @@
 .lead {
-    margin: 0 auto;
-    padding: 56px 0 92px 0;
+    margin: 0;
+    padding: 56px calc((100% - 984px)/2) 92px;
     max-width: 984px;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+@media screen and (max-width: 1024px) {
+    .lead  {
+        padding: 48px calc((100% - 928px)/2) 92px ;
+        max-width: 928px;  
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .lead {
+        padding: 48px 0 88px;
+        max-width: 768px;  
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .lead  {
+        padding: 48px 0 64px;
+        max-width: 425px;  
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .lead  {
+        padding: 48px 0 64px;
+        max-width: 320px;  
+    }
 }

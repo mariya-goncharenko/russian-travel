@@ -10,3 +10,24 @@
     text-align: center;
     color: #FFFFFF;
 }
+
+@media screen and (max-width: 1024px) {
+    .lead__subtitle  {
+        margin: 32px 0 56px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .lead__subtitle  {
+        max-width: 320px;
+        font-size: 16px;
+        line-height: 20px;
+        margin: 16px 0 40px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .lead__subtitle  {
+        max-width: 288px;
+    }
+}
