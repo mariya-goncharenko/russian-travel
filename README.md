@@ -8,7 +8,7 @@
 Макет данного сайта был предоставлен Яндекс.Практикумом в виде ссылки на редактор Figma. (https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-mobile?node-id=28503%3A0)
 
 ## Ссылка на итоговый проект с github.com:
-
+https://mariya-goncharenko.github.io/russian-travel/
 
 ### В дальнейшем планирую доработать сайт:
 * создать адаптив для больших экранов
