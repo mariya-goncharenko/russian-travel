@@ -5,33 +5,34 @@
     font-weight: 900;
     font-size: 72px;
     line-height: 76px;
-  }
-  
-  @media screen and (max-width: 970px) {
-      .place__title {
-          font-size: 60px;
-          line-height: 64px;
-        }
-  }
-  
-  @media screen and (max-width: 768px) {
-      .place__title {
-          font-size: 42px;
-          line-height: 46px;
-        }
-  }
-  
-  @media screen and (max-width: 450px) {
-      .place__title {
-          font-size: 32px;
-          line-height: 35px;
-        }
-  }
-  
-  
-  @media screen and (max-width: 320px) {
-      .place__title {
-          padding-left: 16px;
-          padding-right: 16px;  
-      }
-  }
+}
+
+@media screen and (max-width: 970px) {
+    .place__title {
+        font-size: 60px;
+        line-height: 64px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .place__title {
+        width: 330px;
+        font-size: 42px;
+        line-height: 46px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .place__title {
+        font-size: 32px;
+        line-height: 35px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .place__title {
+        width: 288px;
+        padding-left: 16px;
+        padding-right: 16px;  
+    }
+}

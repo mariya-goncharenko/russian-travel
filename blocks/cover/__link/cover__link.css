@@ -9,7 +9,7 @@
     justify-content: center;
     align-items: center;
     position: relative;
-    background-image: url(./image/train.jpg);
+    background-image: url(../../../image/train.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -33,6 +33,7 @@
   .cover__link:hover::before {
     opacity: 0.8;
     transition: 0.5s ease-in-out;
+    cursor: pointer;
   }
 
 @media screen and (max-width: 1024px) {

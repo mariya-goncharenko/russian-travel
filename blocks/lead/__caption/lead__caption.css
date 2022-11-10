@@ -9,3 +9,9 @@
   color: #FFFFFF;
   align-self: start;
 }
+
+@media screen and (max-width: 768px) {
+  .lead__caption {
+    padding-left: 24px;
+  }   
+}

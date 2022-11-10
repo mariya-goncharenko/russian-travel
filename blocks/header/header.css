@@ -18,7 +18,8 @@
 @media screen and (max-width: 475px) {
     .header  {
         padding: 28px 16px 0 ;
-        width: calc(100% - 16px*2);    
+        width: calc(100% - 16px*2);
+        align-items: center;    
     }
 }
 

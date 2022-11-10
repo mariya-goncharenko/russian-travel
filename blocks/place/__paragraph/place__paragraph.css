@@ -5,22 +5,23 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 29px;
-  }
+}
   
-  .place__paragraph:last-child {
-      padding-bottom: 0;
-  }
-  
-  @media screen and (max-width: 768px) {
-      .place__paragraph {
-          font-size: 16px;
-          line-height: 26px; 
-      }
-  }
-  
-  @media screen and (max-width: 320px) {
-      .place__paragraph {
-          padding-left: 16px;
-          padding-right: 16px;  
-      }
-  }
+.place__paragraph:last-child {
+    padding-bottom: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .place__paragraph {
+        padding-bottom: 25px;
+        font-size: 16px;
+        line-height: 26px; 
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .place__paragraph {
+        padding-left: 16px;
+        padding-right: 16px;  
+    }
+}
