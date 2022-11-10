@@ -47,7 +47,7 @@
         "title" 
         "url"
         "image"
-        "paragraph"; 
+        "paragraph";
         display: flex;
         flex-direction: column; 
     }
