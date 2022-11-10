@@ -1,6 +1,6 @@
 @import url(../vendor/normalize.css);
-@import url(../fonts/inter.css);
-@import url(../blocks/);
+@import url(../vendor/fonts/inter.css);
+@import url(../blocks/root/root.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/header__logo.css);
@@ -26,6 +26,11 @@
 @import url(../blocks/place/__url-heading/place__url-heading.css);
 @import url(../blocks/place/__link/place__link.css);
 @import url(../blocks/place/__paragraph/place__paragraph.css);
+@import url(../blocks/cover/cover.css);
+@import url(../blocks/cover/__link/cover__link.css);
+@import url(../blocks/cover/__text/cover__text.css);
+@import url(../blocks/cover/__title/cover__title.css);
+@import url(../blocks/cover/__subtitle/cover__subtitle.css);
 @import url(../blocks/);
 @import url(../blocks/);
 @import url(../blocks/);
@@ -34,6 +39,9 @@
 @import url(../blocks/);
 @import url(../blocks/);
 @import url(../blocks/);
+@import url(../blocks/);
+@import url(../blocks/);
+
 
 /* Файл ниже создан для личного удобства, разносить по папкам буду позже.*/
 @import url(../styles.css);

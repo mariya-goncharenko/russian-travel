@@ -1,81 +1,96 @@
-
-/*.root {
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    background-color: #2A2C2F;
-    */
-
-
 /* Перед подвалом */
 
-.cover {
-    margin: 0;
-    padding: 92px 48px;
-    max-width: calc(100% - 48px*2);
-    max-height: 640px;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    overflow: hidden;
-}
- 
-
 .cover__link {
-  z-index: 4;
-  align-items: center;
-  color: #FFFFFF;
-  text-decoration: none;
-  background-image: url(./image/train.jpg);
-  background-color: #2A2C2F;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 740px;
-}
-
-/*
-@media screen and (max-width: 1024px) {
-    .cover__link {
-        height: 640px;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .cover__link {
-        height: 480px;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    .cover__link {
-        height: 200px;
-    }
-}*/
-
-.cover__text {
-    z-index: 3;
-
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    min-height: 740px;
+    z-index: 1;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-   
+    position: relative;
+    background-image: url(./image/train.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+ 
+  .cover__link::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: #2a2c2f;
+    opacity: 0.3;
+    z-index: 2;
+  }
+  
+  .cover__link:hover::before {
+    opacity: 0.8;
+    transition: 0.5s ease-in-out;
+  }
+
+@media screen and (max-width: 1024px) {
+    .cover__link {
+        min-height: 640px;
+    }  
+}
+
+@media screen and (max-width: 768px) {
+    .cover__link {
+        min-height: 480px;
+    }    
+}
+
+@media screen and (max-width: 650px) {
+    .cover__link {
+        min-height: 350px;
+    }   
+}
+
+@media screen and (max-width: 380px) {
+    .cover__link {
+        min-height: 200px;
+    }    
+}
+
+.cover__text {
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
 }
 
 .cover__title {
-    max-width: 560px;
     margin: 0;
     padding: 0 0 32px;
+    max-width: 560px;
     font-weight: 900;
     font-size: 72px;
     line-height: 76px;
+    text-align: center;
 }
 
-/*
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 650px) {
     .cover__title {
+        padding: 0 0 24px;
+        max-width: 380px;
+        font-size: 48px;
+        line-height: 52px;
+    }   
+}
+
+@media screen and (max-width: 380px) {
+    .cover__title {
+        padding: 0 0 16px;
         max-width: 288px;
         font-size: 32px;
         line-height: 35px;
@@ -83,17 +98,24 @@
 }
 
 .cover__subtitle {
-    max-width: 360px;
     margin: 0;
     padding: 0;
+    max-width: 360px;
     font-weight: 400;
     font-size: 18px;
     line-height: 22px;
+    text-align: center;
 }
 
+@media screen and (max-width: 650px) {
+    .cover__subtitle {
+        max-width: 380px;
+        font-size: 16px;
+        line-height: 20px;
+    }   
+}
 
-/*
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 380px) {
     .cover__subtitle {
         max-width: 288px;
         font-size: 14px;
@@ -101,36 +123,8 @@
     }   
 }
 
-*/
-
-.cover__overlay {
-  max-width: 100%;
-  object-fit: cover;
-  z-index: 2;
-  background-color: #2A2C2F;
-  opacity: 0.3;
-}
-
-.cover__overlay:hover {
-    color: #2A2C2F;
-    opacity: 0.8;
-    cursor: pointer;
-}
-/*
-@media screen and (max-width: 1024px) {
-    .cover__overlay {
-        max-width: 1024px;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .cover__overlay {
-        max-width: 100vw;
-    }             
-}
-
-
-Подвал*/
+ 
+/*Подвал*/
 
 .footer {
     max-width: calc(100% - 48px*2);
@@ -160,7 +154,6 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-
     }            
 }
 
