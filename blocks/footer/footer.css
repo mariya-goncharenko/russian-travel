@@ -25,6 +25,7 @@
 
 @media screen and (max-width: 500px) {
     .footer {
+        padding: 0 16px 24px;
         display: grid;
         justify-content: start;
         grid-template-rows: repeat(2, min-content);
